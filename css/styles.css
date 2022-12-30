@@ -90,6 +90,8 @@ html {
   }
 }
 
+
+
 /*body*/ 
 
   #welcome-section {
@@ -165,7 +167,8 @@ html {
   .project-image {
     width: 100%;
     aspect-ratio: 1 / 1;
-    padding-bottom: 10%;
+    border-radius: 10px;
+    margin-bottom: 10%;
     object-fit: cover;
     opacity: 0.8;
     filter: grayscale(0.3);
@@ -220,6 +223,13 @@ html {
     transition: transform 0.3s ease-out;
   }
 
+  @media (max-width: 600px) {
+    .profiles {
+      margin: 0rem;
+      padding: 0rem;
+    }
+  }
+
   .profiles p{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -249,4 +259,18 @@ html {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
+  }
+
+/** recipes **/
+  .recipe-h1 {
+      padding-top: 4rem;
+  }
+    @media (max-width: 979px) {
+      .recipe-h1 {
+        padding-top: 0px;
+      }
+    }
+
+  .recipe-body {
+    padding: 4rem;
   }
