@@ -262,6 +262,10 @@ html {
   }
 
 /** recipes **/
+  .recipe-body {
+    background-color: #7A498E;
+  }
+
   .recipe-h1 {
       padding-top: 4rem;
   }
@@ -271,6 +275,10 @@ html {
       }
     }
 
-  .recipe-body {
+  .recipe-p {
     padding: 4rem;
+  }
+
+  .recipe-cover-photo {
+    padding: 1rem 0 1rem 0;
   }
